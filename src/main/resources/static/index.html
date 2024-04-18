@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gpt movie recommendations</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <h1>Chat-gpt movie recommendations</h1>
+    <p>Type in topic and press send to get a movie recommendation from chat-gpt</p>
+    <form>
+        <label>topic</label>
+        <input id="topic"></input>
+        <button type="submit" id="send">send</button>
+    </form>
+    <div id="loading" style="display: none;">Loading...</div>
+    <div id="movie-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Runtime</th>
+                    <th>Year</th>
+                    <th>Rated</th>
+                </tr>
+            </thead>
+            <tbody id="movie-table-body">
+                <!-- insert movie -->
+            </tbody>
+        </table>
+    </div>
+    <img src="" id="movie-poster">
+    <script src="js/app.js"></script>
+</body>
+</html>

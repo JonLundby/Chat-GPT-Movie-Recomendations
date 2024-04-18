@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+/*#movie-container {*/
+/*    text-align: center;*/
+/*}*/
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+thead {
+    padding: 18px;
+}
+
+th {
+    text-decoration: underline;
+    padding: 15px;
+}
+
+tbody {
+    border: 2px solid cadetblue;
+}
+
+#movie-poster {
+    width: 0.8fr;
+    height: 0.8fr;
+}
